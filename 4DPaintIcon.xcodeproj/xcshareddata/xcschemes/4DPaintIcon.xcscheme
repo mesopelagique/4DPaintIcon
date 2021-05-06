@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CAB752C12635B1B000CA5396"
-               BuildableName = "XcoatOfPaint.app"
-               BlueprintName = "XcoatOfPaint"
-               ReferencedContainer = "container:XcoatOfPaint.xcodeproj">
+               BuildableName = "4DPaintIcon.app"
+               BlueprintName = "4DPaintIcon"
+               ReferencedContainer = "container:4DPaintIcon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB752C12635B1B000CA5396"
-            BuildableName = "XcoatOfPaint.app"
-            BlueprintName = "XcoatOfPaint"
-            ReferencedContainer = "container:XcoatOfPaint.xcodeproj">
+            BuildableName = "4DPaintIcon.app"
+            BlueprintName = "4DPaintIcon"
+            ReferencedContainer = "container:4DPaintIcon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CAB752C12635B1B000CA5396"
-            BuildableName = "XcoatOfPaint.app"
-            BlueprintName = "XcoatOfPaint"
-            ReferencedContainer = "container:XcoatOfPaint.xcodeproj">
+            BuildableName = "4DPaintIcon.app"
+            BlueprintName = "4DPaintIcon"
+            ReferencedContainer = "container:4DPaintIcon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

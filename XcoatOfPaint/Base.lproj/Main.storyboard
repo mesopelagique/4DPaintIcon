@@ -412,7 +412,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="XcoatOfPaint" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="_DPaintIcon" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -422,7 +422,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="XcoatOfPaint" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="4DPaintIcon" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -442,12 +442,12 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="XcoatOfPaint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="_DPaintIcon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="434" height="345"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="09Q-YH-2TA" customClass="FileDropImageView" customModule="XcoatOfPaint" customModuleProvider="target">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="09Q-YH-2TA" customClass="FileDropImageView" customModule="_DPaintIcon" customModuleProvider="target">
                                 <rect key="frame" x="224" y="135" width="193" height="193"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="09Q-YH-2TA" secondAttribute="height" multiplier="1:1" id="dSr-vb-g7j"/>
@@ -458,9 +458,9 @@
                                     <binding destination="XfG-lQ-9wD" name="value" keyPath="self.imageEditor.outputImage" id="Y5i-LU-Efc"/>
                                 </connections>
                             </imageView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aSS-UY-t9X">
-                                <rect key="frame" x="47" y="224" width="133" height="16"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Drop Xcode.app here" id="KCO-Jy-Vh7">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aSS-UY-t9X" userLabel="Drop 4D.app here">
+                                <rect key="frame" x="58" y="224" width="112" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Drop 4D.app here" id="KCO-Jy-Vh7" userLabel="Drop 4D.app here">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -473,7 +473,7 @@
                                     </binding>
                                 </connections>
                             </textField>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ya8-1c-wfp" customClass="FileDropImageView" customModule="XcoatOfPaint" customModuleProvider="target">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ya8-1c-wfp" customClass="FileDropImageView" customModule="_DPaintIcon" customModuleProvider="target">
                                 <rect key="frame" x="17" y="135" width="193" height="193"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ya8-1c-wfp" secondAttribute="height" multiplier="1:1" id="AtQ-9M-qcT"/>
@@ -484,8 +484,8 @@
                                 </connections>
                             </imageView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y0p-Il-trM">
-                                <rect key="frame" x="15" y="98" width="198" height="32"/>
-                                <buttonCell key="cell" type="push" title="Restore default Xcode icon" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gzm-d4-GBc">
+                                <rect key="frame" x="36" y="98" width="156" height="32"/>
+                                <buttonCell key="cell" type="push" title="Restore default icon" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gzm-d4-GBc">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -493,7 +493,7 @@
                                     <action selector="restoreDefaultIcon:" target="XfG-lQ-9wD" id="1cg-1t-TBO"/>
                                 </connections>
                             </button>
-                            <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jca-h7-Rcw" customClass="HueSlider" customModule="XcoatOfPaint" customModuleProvider="target">
+                            <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jca-h7-Rcw" customClass="HueSlider" customModule="_DPaintIcon" customModuleProvider="target">
                                 <rect key="frame" x="296" y="102" width="124" height="28"/>
                                 <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="1" doubleValue="0.5" tickMarkPosition="above" sliderType="linear" id="OJK-v7-5hC"/>
                                 <connections>
@@ -539,8 +539,8 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lgV-3t-zTu">
-                                <rect key="frame" x="244" y="13" width="154" height="32"/>
-                                <buttonCell key="cell" type="push" title="Replace Xcode icon" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ydi-aC-QmZ">
+                                <rect key="frame" x="265" y="13" width="112" height="32"/>
+                                <buttonCell key="cell" type="push" title="Replace icon" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ydi-aC-QmZ">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
