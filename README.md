@@ -22,7 +22,7 @@ Just download the project and _"Build and Run"_ from Xcode.
 
 * Drag the 4D app onto the left side of the app
 * Change hue, saturation and brightness to your liking
-* Cli
+* Click on "Replace Icon"
 
 If 4D is currently running, you will need to close it and open it again before the icon change takes effect.
 
